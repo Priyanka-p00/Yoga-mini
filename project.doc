@@ -1,0 +1,118 @@
+[11:17 AM, 3/18/2022] Priyanka??: <html lang="en">
+?
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS glowing icons</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+?
+<body>
+  <div class="container">
+    <i class="fa fa-apple" id="apple"></i>
+    <i class="fa fa-twitter" id="twitter"></i>
+    <i class="fa fa-github-square github" id="github"></i>
+    <i class="fa fa-facebook-square" id="facebook"></i>
+  </div>
+</body>
+?
+</html>
+[11:18 AM, 3/18/2022] Priyanka??: * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #18191f;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+#apple,
+#twitter,
+#github,
+#facebook {
+  font-size: 8em;
+  background-color: #18191f;
+  color: #fff;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+[11:18 AM, 3/18/2022] Priyanka??: For glowing ikon
+[11:20 AM, 3/18/2022] Priyanka??: <div id="navbar" class="bottom">
+  <a href="">About</a>
+  <a href="">Menu</a>
+  <a href="">Locations</a>
+  <a href="">Contact</a>
+</div>
+?
+<div class="landing--container">
+  <div class="landing--title">
+    <p>it's always</p>
+    <h1>coffee o'clock.</h1>
+    <button class="primary-btn">get your daily brew</button>
+    <div class="landing--line"></div>
+  </div>
+?
+</div>
+?
+<section>
+  <div class="content">
+    
+  </div>
+</section>
+<section class="color-bg">
+[11:20 AM, 3/18/2022] Priyanka??: $white: #ECF8F8;
+$light: #EEE4E1;
+$cream: #E7D8C9;
+$pink: #E6BEAB;
+$tan: #B2967D;
+$dark: #513D3A;
+?
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,400,700|Roboto:100,400,700');
+?
+$sans: 'Roboto', sans-serif;
+$serif: 'Noto Serif TC', serif;
+?
+$ease: all .4s ease;
+?
+body {
+  margin: 0;
+  background: $light;
+  overflow-x: hidden;
+}
+a {
+  color: $tan;
+  text-decoration: none;
+[11:21 AM, 3/18/2022] Priyanka??: Website design
+[11:21 AM, 3/18/2022] Priyanka??: $white: #ECF8F8;
+$light: #EEE4E1;
+$cream: #E7D8C9;
+$pink: #E6BEAB;
+$tan: #B2967D;
+$dark: #513D3A;
+?
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,400,700|Roboto:100,400,700');
+?
+$sans: 'Roboto', sans-serif;
+$serif: 'Noto Serif TC', serif;
+?
+$ease: all .4s ease;
+?
+body {
+  margin: 0;
+  background: $light;
+  overflow-x: hidden;
+}
+a {
+  color: $tan;
+  text-decoration: none;
+[11:21 AM, 3/18/2022] Priyanka??: Js of website
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;1,100;1,600&display=swap');
+</style>

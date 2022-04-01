@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+<meta charset= "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>
+    Exploring yoga
+</title>
+</head>
+<body>
+    <section class="showcase">
+<header>
+    <h2 class="logo"> Yoga</h2>
+    <div class="toggle"></div>
+</header>
+<video src="yoga.mp4" muted loop autoplay ></video>
+<div class="overlay"></div>
+<div class="text">
+    <h2>Exploring Yoga</h2>
+    <h3>Welcome to know more about yoga</h3>
+    <p>yoga is a group of pysical,mental,and spiritual practices
+        or discipline which originated in ancient india add aim 
+        to control and still the mind,recognizing a detached witness 
+        -consciousness untouched by the mind and mundane sufferings. 
+    </p>
+    <a href="#">Explore</a>
+</div>
+<ul class="social">
+<li><a href="#"><img src="facebook.jpeg" width="50" height="50"></a></li>
+<li><a href="#"><img src="twitter.jpeg" width="50" height="50"></a></li>
+<li><a href="#"><img src="insta.jpeg"  width="50" height="50"></a></li>
+</ul>
+</section>
+<div class="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">contact</a></li>
+  </ul>
+</div>
+<script>
+    const menuToggle=document.querySelector('.toggle')
+    const showcase=document.querySelector('.showcase')
+    menuToggle.addEventListener('click',()=>{
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+    })
+ </script>
+</body>
+</html>
+ 
